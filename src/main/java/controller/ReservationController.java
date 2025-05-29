@@ -58,7 +58,7 @@ public class ReservationController extends HttpServlet {
         if ("byUser".equals(request.getParameter("action"))) {
             int userId = Integer.parseInt(request.getParameter("userId"));
             
-            Utilisateur utilisateur = utilisateurDAO.getById(userId); // méthode à ajouter si elle n'existe pas
+            Utilisateur utilisateur = utilisateurDAO.getById(userId);  
             List<Reservation> reservations = reservationDAO.findByUtilisateur(utilisateur);
             
             request.setAttribute("reservations", reservations);

@@ -1,0 +1,19 @@
+INDEX VERSION 1.134
+C:\Users\LENOVO\Desktop\TrainTicket_JEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\375156756.index
+\maven\src\main\java
+C:\Users\LENOVO\Desktop\TrainTicket_JEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1829373014.index
+\projet\src\main\java
+C:\Users\LENOVO\Desktop\TrainTicket_JEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3740291979.index
+\maven\src\main\java
+C:\Users\LENOVO\Desktop\TrainTicket_JEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\513420855.index
+\projet\src\main\java
+C:\Users\LENOVO\Desktop\TrainTicket_JEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1118047826.index
+\ProjetJEE\src\main\java
+C:\Users\LENOVO\Desktop\TrainTicket_JEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2841009516.index
+\projet\src\main\java
+C:\Users\LENOVO\Desktop\TrainTicket_JEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\973579647.index
+\projet\src\main\java
+C:\Users\LENOVO\Desktop\TrainTicket_JEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3951042251.index
+\maven\src\main\java
+C:\Users\LENOVO\Desktop\TrainTicket_JEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3081168442.index
+\projet\src\main\java

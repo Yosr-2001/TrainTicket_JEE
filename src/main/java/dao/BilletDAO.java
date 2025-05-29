@@ -51,8 +51,6 @@ public class BilletDAO {
         Billet billet = session.get(Billet.class, id);
         boolean success = false;
         if (billet != null) {
-           // billet.setPrix(prix);
-            //billet.setStatut(statut);
             Transaction tx = null;
             try {
                 tx = session.beginTransaction();

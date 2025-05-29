@@ -11,7 +11,11 @@
 <jsp:include page="navbar.jsp" />
 
 <div class="container">
-    <h2>Rechercher un trajet</h2>
+    
+
+     <div class="header-wrapper">
+		<h2>Rechercher un voyage</h2>
+	</div>
 
      
     <form action="${pageContext.request.contextPath}/RechVoyage" method="get">

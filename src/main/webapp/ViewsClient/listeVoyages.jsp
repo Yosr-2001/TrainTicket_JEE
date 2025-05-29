@@ -12,7 +12,7 @@
 <jsp:include page="navbar.jsp" />
 
 <div class="container">
-    <h2><i class="fas fa-list"></i> Tous les voyages disponibles</h2>
+    <h2>Voyages disponibles</h2>
 
     <c:if test="${empty voyages}">
         <div class="message-empty"><i class="fas fa-info-circle"></i> Aucun voyage trouvé.</div>

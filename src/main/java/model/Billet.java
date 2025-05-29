@@ -18,9 +18,7 @@ public class Billet {
 
     @OneToOne
     private Reservation reservation;
-
-    // ======= Constructeurs =======
-
+ 
     public Billet() {}
 
     public Billet(Date dateEmission, Reservation reservation) {
@@ -28,7 +26,7 @@ public class Billet {
         this.reservation = reservation;
     }
 
-    // ======= Getters & Setters =======
+    
 
     public int getId() {
         return id;

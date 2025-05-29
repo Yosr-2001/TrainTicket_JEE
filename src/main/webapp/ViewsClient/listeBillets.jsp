@@ -3,8 +3,107 @@
 <html>
 <head>
     <title>Liste des Billets</title>
-    
-    <link rel="stylesheet" href="Styles/styleBillet.css" />
+     <style>
+h2 {
+    font-size: 2rem;
+    margin: 10px 10px 30px 60px;
+    color: #34495e;
+    border-left: 6px solid #3498db;
+    padding: 16px 24px;
+    background-color: white;
+    display: inline-block;
+    line-height: 1.1;
+    letter-spacing: 0.5px;
+    word-spacing: 1px; 
+    margin-left:100px;
+}
+
+.empty-msg {
+    text-align: center;
+    background-color: #fdecea;
+    color: #c0392b;
+    padding: 16px;
+    border-left: 5px solid #e74c3c;
+    border-radius: 6px;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    font-weight: bold;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+    max-width: 1100px;
+    margin: 0 auto 40px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    padding: 24px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+    color: #3498db;
+    margin-bottom: 8px;
+    font-size: 1.3rem;
+}
+
+.card p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #2c3e50;
+}
+
+.btn-print {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 12px;
+    align-self: flex-end;
+    transition: background-color 0.3s ease;
+}
+
+.btn-print:hover {
+    background-color: #2a7cb8;
+}
+
+.btn-return {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #e0e0e0;
+    color: #2c3e50;
+    padding: 16px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    width: fit-content;
+    margin-left: auto;
+    margin-right:30px;
+}
+
+.btn-return:hover {
+    background-color: #d5d5d5;
+}   </style>
     <script>
         // Fonction pour imprimer uniquement une carte spécifique
         function printCard(cardId) {
@@ -30,8 +129,9 @@
 </head>
 <body>
 
+	<jsp:include page="navbar.jsp" />
     <div class="container">
-        <h2>Billets de la réservation</h2>
+        <h2>Billets</h2>
 
         <c:if test="${empty billets}">
             <p class="empty-msg">Aucun billet trouvé pour cette réservation.</p>
